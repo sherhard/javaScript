@@ -1,0 +1,44 @@
+ Выведите столбец чисел от 1 до 100.
+ for
+ for(let i=0; i<100; i++){
+    document.write(i+'<br>')}
+    
+    
+ while
+ 
+ let i=0;
+while(i<100){
+    document.write(i+'<br>');
+    i++;
+}
+
+
+2)
+ Выведите столбец чисел от 11 до 33.
+ for
+for(i=11; i<33; i++){
+    document.write(i+'<br>')}
+    
+    while
+    
+    for(i=11; i<33; i++){
+    document.write(i+'<br>')
+i++;}
+
+3)Выведите столбец четных чисел в промежутке от 0 до 100.
+
+for(i=0; i<100; i+=2){
+    document.write(i+'<br>');
+}
+
+4)С помощью цикла найдите сумму чисел от 1 до 100
+while
+
+let a=0;
+let res=0;
+while(a<100){
+    res=res+a;
+    
+    a++;
+}document.write(res);
+    
