@@ -1,0 +1,8 @@
+Дана строка "hello world" . Замените все на "bay world" , с помощью глобального поиска и замены
+
+let str='hello world';
+document.write(str.replace('hello' ,'bay'));
+
+Найти все элементы Hello
+let str='hello world hello';
+document.write(str.replace(/hello/g ,'bay'));
