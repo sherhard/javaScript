@@ -1,0 +1,18 @@
+Дан массив ['js', 'css', 'jq']. Выведите на экран первый элемент.
+
+let st=['js','css','html'];
+let elem=st.shift();
+console.log(elem);
+VM1307:3 js
+
+2)Дан массив ['js', 'css', 'jq']. Выведите на экран последний элемент.
+let st=['js','css','html'];
+let elem=st.pop();
+console.log(elem);
+VM1332:3 html
+
+3)
+let arr = ["Банан", "Апельсин", 
+	"Яблоко", "Манго"]; 
+console.log(arr.sort());
+VM1336:3 (4) ['Апельсин', 'Банан', 'Манго', 'Яблоко']
