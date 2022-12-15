@@ -1,0 +1,46 @@
+1)Нарисуйте пирамиду, как показано на рисунке, только у вашей пирамиды должно быть 20 рядов, а не 5:
+let str="";
+for(let i=0; i<20; i++){
+    str=str+'x';
+    console.log(str);
+}
+
+VM949:4 x
+VM949:4 xx
+VM949:4 xxx
+VM949:4 xxxx
+VM949:4 xxxxx
+VM949:4 xxxxxx
+VM949:4 xxxxxxx
+VM949:4 xxxxxxxx
+VM949:4 xxxxxxxxx
+VM949:4 xxxxxxxxxx
+
+
+2)
+ С помощью двух вложенных циклов нарисуйте следующую пирамидку:
+
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999
+
+
+for (let i=0; i<=10; i++){
+    for(let j=0; j<=i;j++){
+        document.write(i);
+    }
+    document.write('<br>');
+}
+
+
+
+
+
+
+
